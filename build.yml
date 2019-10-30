@@ -1,0 +1,34 @@
+sdkversion: 6.0.0
+name: PushTest
+version: 1.0
+vendor: rhomobile
+build: debug
+applog: rholog.txt
+
+capabilities:
+  - push
+
+iphone:
+  configuration: Release
+  sdk: latest
+  provisioning_style: Manual
+  # replace this provisioning info to your:
+  provisionprofile: "<your provision profile>"
+  development_team: "<your team ID>"
+  codesignidentity: "iPhone Developer"
+  BundleIdentifier: com.tauplatform.universalpushtest
+  BundleURLScheme: pushtest
+
+android:
+  version: 4.1.0
+  logcatFilter: APP:I StrictMode:I DEBUG:I *:E
+  abis:
+    - arm
+    - x86
+
+
+extensions: ["fcm-push"]
+
+rhobundle:
+  exclude_items:
+  - thumb.db
