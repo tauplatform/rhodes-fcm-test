@@ -18,7 +18,7 @@ Adding iOS to your Firebase project steps:
 
 Go to the Project Settings >>Cloud Messaging Settings and upload APNs Auth key, specify Key ID and you Apple development team ID.
 
-###Adding Android App to your Firebase project
+### Adding Android App to your Firebase project
 Press Android icon under the caption “Get started by adding Firebase to your app” or go to Project settings and add the “Add app” button  in General Settings. You can reach Project Settings by pressing the icon “Gear” on the right of the project title at the left top of screen. 
 Adding Android to your Firebase project steps:
 
