@@ -1,7 +1,7 @@
 sdkversion: 6.0.0
-name: PushTest
+name: FCMTest
 version: 1.0
-vendor: rhomobile
+vendor: tauplatform
 build: debug
 applog: rholog.txt
 
@@ -16,8 +16,8 @@ iphone:
   provisionprofile: "<your provision profile>"
   development_team: "<your team ID>"
   codesignidentity: "iPhone Developer"
-  BundleIdentifier: com.tauplatform.universalpushtest
-  BundleURLScheme: pushtest
+  BundleIdentifier: com.tauplatform.fcmtest
+  BundleURLScheme: taufcmtest
 
 android:
   version: 4.1.0
@@ -25,6 +25,7 @@ android:
   abis:
     - arm
     - x86
+  #package_name: "com.tauplatform.fcmtest"
 
 
 extensions: ["fcm-push"]

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "775253942894",
+    "firebase_url": "https://rhodes-fcm-test.firebaseio.com",
+    "project_id": "rhodes-fcm-test",
+    "storage_bucket": "rhodes-fcm-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775253942894:android:b1955db2a9fb7929bf7c7f",
+        "android_client_info": {
+          "package_name": "com.tauplatform.fcmtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775253942894-nfgfkb7hvv38ktogf0fatbmmbcfak3v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeJH-4LukvuNzunfOMzgGRdOy11blv-HY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775253942894-nfgfkb7hvv38ktogf0fatbmmbcfak3v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
