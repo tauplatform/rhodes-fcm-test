@@ -33,6 +33,8 @@ Now all are ready for building the apps and install it on the devices.
 ## Building Rhodes App
 
 ### iOS build
+
+iOS build use Cocoa Pods - install it into your environment !
 Run the following commands:
 
 `rake build:iphone:setup_xcode_project`
