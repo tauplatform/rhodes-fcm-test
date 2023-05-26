@@ -1,5 +1,5 @@
-platform :ios, '10.0'
-#use_frameworks!
+platform :ios, '12.0'
+use_frameworks!
 
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
