@@ -6,4 +6,5 @@ sim-*
 # build output
 bin/
 public/api/generated/
+project/iphone/Pods
 .cbc

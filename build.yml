@@ -8,14 +8,17 @@ applog: rholog.txt
 capabilities:
   - push
 
+
 iphone:
   configuration: Release
   sdk: latest
+  ARCHS_device: ["arm64"]
+  enable_bitcode: false 
   provisioning_style: Manual
   # replace this provisioning info to your:
   provisionprofile: "<your provision profile>"
   development_team: "<your team ID>"
-  codesignidentity: "iPhone Developer"
+  #codesignidentity: "iPhone Developer"
   BundleIdentifier: com.tauplatform.fcmtest
   BundleURLScheme: taufcmtest
 

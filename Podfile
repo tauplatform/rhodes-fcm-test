@@ -10,9 +10,17 @@ end
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+          if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.bundle"
+            target.build_configurations.each do |config|
+                config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+            end
+          end
+        end
         if target.name == "Pods-rhorunner"
             puts "Updating #{target.name} OTHER_LDFLAGS"
             target.build_configurations.each do |config|
+
                 xcconfig_path = config.base_configuration_reference.real_path
 
                 # read from xcconfig to build_settings dictionary
