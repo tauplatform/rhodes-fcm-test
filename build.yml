@@ -23,13 +23,10 @@ iphone:
   BundleURLScheme: taufcmtest
 
 android:
-  version: 4.1.0
   logcatFilter: APP:I StrictMode:I DEBUG:I *:E
   abis:
-    - arm
+    - aarch64
     - x86
-  #package_name: "com.tauplatform.fcmtest"
-
 
 extensions: ["fcm-push"]
 
